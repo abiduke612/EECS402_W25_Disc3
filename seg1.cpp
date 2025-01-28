@@ -8,7 +8,7 @@ int main() {
     // fill array
     arr[ARR_SIZE - 1] = 1;
     for (int i = ARR_SIZE - 1; i >= 0; ++i) {
-        arr[i] = arr[i + 1] * 1.5;
+        arr[i] = arr[i + 1] * 0.99;
     }
     
     // sum elements
